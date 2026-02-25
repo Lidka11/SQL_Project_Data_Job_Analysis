@@ -1,1 +1,1 @@
-To do: update this message later
+Project made thanks to Luke Barousse' sql course.
