@@ -36,12 +36,18 @@ WHERE
 ORDER BY jpf.salary_year_avg DESC
 LIMIT 10
 ```
-Job Title,Company,Avg. Salary (USD)
-Data Analyst,Mantys,"$650,000"
-Director of Analytics,Meta,"$336,500"
-Associate Director- Data Insights,AT&T,"$255,830"
-"Data Analyst, Marketing",Pinterest,"$232,423"
-Data Analyst (Hybrid/Remote),Uclahealthcareers,"$217,000"
+| Job Title | Company | Salary (USD) | Location |
+| :--- | :--- | :--- | :--- |
+| **Data Analyst** | Mantys | **$650,000** | Anywhere |
+| **Director of Analytics** | Meta | **$336,500** | Anywhere |
+| **Associate Director- Data Insights** | AT&T | **$255,830** | Anywhere |
+| **Data Analyst, Marketing** | Pinterest | **$232,423** | Anywhere |
+| **Data Analyst (Hybrid/Remote)** | Uclahealthcareers | **$217,000** | Anywhere |
+| **Principal Data Analyst (Remote)** | SmartAsset | **$205,000** | Anywhere |
+| **Director, Data Analyst - HYBRID** | Inclusively | **$189,309** | Anywhere |
+| **Principal Data Analyst, AV Performance** | Motional | **$189,000** | Anywhere |
+| **Principal Data Analyst** | SmartAsset | **$186,000** | Anywhere |
+| **ERM Data Analyst** | Get It Recruit | **$184,000** | Anywhere |
 
 ### 2. Top paying job skills
 ```sql
