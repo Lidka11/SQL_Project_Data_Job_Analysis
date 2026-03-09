@@ -76,6 +76,17 @@ INNER JOIN skills_job_dim AS sjd ON tpj.job_id=sjd.job_id
 INNER JOIN skills_dim AS sd ON sjd.skill_id=sd.skill_id
 ORDER BY salary_year_avg DESC
 ```
+| Job Title | Company | Salary (USD) | Skills |
+| :--- | :--- | :--- | :--- |
+| **Associate Director- Data Insights** | AT&T | **$255,830** | sql, python, r, azure, databricks, aws, pandas, pyspark, jupyter, excel, tableau, power bi, powerpoint |
+| **Data Analyst, Marketing** | Pinterest | **$232,423** | sql, python, r, hadoop, tableau |
+| **Data Analyst (Hybrid/Remote)** | Uclahealthcareers | **$217,000** | sql, crystal, oracle, tableau, flow |
+| **Principal Data Analyst (Remote)** | SmartAsset | **$205,000** | sql, python, go, snowflake, pandas, numpy, excel, tableau, gitlab |
+| **Director, Data Analyst - HYBRID** | Inclusively | **$189,309** | sql, python, azure, aws, oracle, snowflake, tableau, power bi, sap, jenkins, bitbucket, atlassian, jira, confluence |
+| **Principal Data Analyst, AV Performance** | Motional | **$189,000** | sql, python, r, git, bitbucket, atlassian, jira, confluence |
+| **Principal Data Analyst** | SmartAsset | **$186,000** | sql, python, go, snowflake, pandas, numpy, excel, tableau, gitlab |
+| **ERM Data Analyst** | Get It Recruit | **$184,000** | sql, python, r |
+
 ### 3. Top demanded skills
 ```sql
 SELECT
