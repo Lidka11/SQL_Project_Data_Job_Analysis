@@ -66,7 +66,7 @@ LEFT JOIN oferty as o ON cd.company_id=o.company_id
 SELECT * FROM job_postings_fact
 LIMIT 5
 
-#-------trudne 2:47
+#-------
 
 WITH remote_job_skills AS(
     SELECT
